@@ -28,7 +28,7 @@ aws_secret_access_key = <ECS_SECRET>
 
 To install Velero use the below command replacing bucket, s3URL with your site's specific information.
 
-For specific configuration options for backup-location-config for the AWS provider go to this URL.
+For specific configuration options for backup-location-config for the AWS provider go to [this URL](https://github.com/chrisjen83/velero-ecs/blob/master/Velero%20AWS%20Plugin%20Settings.md).
 
 > ```
 > velero install \
