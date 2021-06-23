@@ -38,6 +38,7 @@ For specific configuration options for backup-location-config for the AWS provid
 > > --bucket <BUCKET_NAME> \
 > > --secret-file ./credentials-velero \
 > > --use-volume-snapshots=false \
+> > --region=us-east-1 \
 > > --backup-location-config s3ForcePathStyle="true",s3Url=https://<ECS_S3_URL>
 > ```
 
